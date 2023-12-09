@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Top Professions</title>
+    <title>Text Analyzer</title>
     <link rel="stylesheet" href="../static/css/styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Top Professions</h1>
-        <p>Based on your traits, here are the top professions:</p>
+        <h1>Sentiment Analysis</h1>
+        <p>Based on your text, the sentiment is:</p>
 
         <ul class="profession-list">
-            {% for profession in generated_professions %}
-                <li>{{ profession }}</li>
-            {% endfor %}
+                <li>{{ sentiment }}</li>
         </ul>
     </div>
 </body>
