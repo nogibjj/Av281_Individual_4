@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hugging Face Model Demo</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>What is the sentiment of this text?</h2>
+        <form action="/generate" method="post">
+            <label for="prompt">Enter text you want analyzed:</label><br>
+            <input type="text" id="prompt" name="prompt"><br><br>
+            <input type="submit" value="Generate">
+        </form>
+    </div>
+</body>
+</html>
