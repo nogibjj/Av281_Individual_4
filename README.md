@@ -2,6 +2,8 @@
 Auto Scaling Flask App Using Any Platform As a Service
 ## [FLASK APP LINK](https://sentimentanalysisapp.azurewebsites.net/)
 
+### [Video Demo Link](https://youtu.be/s5ExVvwIchU)
+
 ## Purpose
 The purpose of this project was to build a publicly accessible auto-scaling container using Azure App Services and Flask. I wanted to build a publicly available sentiment analysis text analyzer. This allows a user to input any text, click analyze, and receive the sentiment label.
 
