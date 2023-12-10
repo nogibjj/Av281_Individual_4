@@ -9,7 +9,7 @@ The purpose of this project was to build a publicly accessible auto-scaling cont
 
 ## Structure:
 
-
+```
 ├── .devcontainer/
 │   ├── Dockerfile
 │   └── devcontainer.json
@@ -27,7 +27,7 @@ The purpose of this project was to build a publicly accessible auto-scaling cont
 ├── README.md
 ├── flask_app.py
 └── requirements.txt
-
+```
 
 ## Important Aspects:
 
