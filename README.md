@@ -1,14 +1,11 @@
 # Adler Viton Individual Project 4 [![CI/CD Pipeline](https://github.com/nogibjj/Av281_Individual_4/actions/workflows/actions.yml/badge.svg)](https://github.com/nogibjj/Av281_Individual_4/actions/workflows/actions.yml)
 Auto Scaling Flask App Using Any Platform As a Service
-
-
-FLASK APP LINK: https://sentimentanalysisapp.azurewebsites.net/
+## [FLASK APP LINK](https://sentimentanalysisapp.azurewebsites.net/)
 
 ## Purpose
 The purpose of this project was to build a publicly accessible auto-scaling container using Azure App Services and Flask. I wanted to build a publicly available sentiment analysis text analyzer. This allows a user to input any text, click analyze, and receive the sentiment label.
 
 ## Structure:
-
 ```
 ├── .devcontainer/
 │   ├── Dockerfile
@@ -16,12 +13,13 @@ The purpose of this project was to build a publicly accessible auto-scaling cont
 ├── .github/
 │   └── workflows/
 │       └── actions.yml
-├── templates/
-│   ├── input.html
-│   └── sentiments.html
 ├── static/
 │   └── css/
 │       └── styles.css
+├── templates/
+│   ├── input.html
+│   └── sentiments.html
+├── .gitignore
 ├── Dockerfile
 ├── Makefile
 ├── README.md
@@ -49,3 +47,13 @@ Dockerhub is used to create and store a docker image of the whole Github repo. T
 
 ### Azure Web App
 Azure Web App resource is used to deploy the docker image onto the public-facing URL. This is autoscaling for load handling through Azure.
+
+# [The App](https://sentimentanalysisapp.azurewebsites.net/) 
+## 1. Home Page
+   ![Home](https://github.com/nogibjj/Av281_Individual_4/blob/main/Images_Flask_App/Home.png)
+## 2. Input
+User Can input any text to be analyzed
+  ![Home](https://github.com/nogibjj/Av281_Individual_4/blob/main/Images_Flask_App/Input.png)
+## 3. Result
+Result will pop up after clicking "analyze" button
+  ![Home](https://github.com/nogibjj/Av281_Individual_4/blob/main/Images_Flask_App/Result.png)
